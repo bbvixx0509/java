@@ -5,8 +5,8 @@
 </head>
 <body>
 	<h4>구구단 출력하기</h4>	
-	<jsp:include page="include_date.jsp" flush="true" >	
+	<jsp:forward page="forward_date.jsp" >	
 		<jsp:param name="num" value="5" />
-	</jsp:include>	
+	</jsp:forward>	
 </body>
 </html>
